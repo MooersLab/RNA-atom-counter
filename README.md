@@ -11,7 +11,19 @@ Adjust the results accordingly if this is not the case.
 
 ```bash
 Usage: python script.py SEQUENCE
-Example: python script.py AGCU
+Example: python script.py AGAGAAGAAAGGGAAAUUUUUUUUUUUUUUUU
+```
+
+Example output.
+
+```bash
+Atom counts for RNA sequence: AGAGAAGAAAGGGAAAUUUUUUUUUUUUUUUU
+----------------------------------------
+C: 304
+H: 448
+N: 112
+O: 262
+P: 32
 ```
 
 The script only depends on Python3.
