@@ -5,11 +5,17 @@
 Some *ab inito* structure determination programs require the number
 of atoms by element expected in the asymmetric unit.
 This program returns the number of atoms by element based on the
-single letter RNA base sequence given as a command line argument.
+single-letter RNA base sequence given as a command line argument.
 This program assumes that there is a 5'-phosphate.
-You can adjust the results accordingly if this is not the case.
+Adjust the results accordingly if this is not the case.
 
+```bash
+Usage: python script.py SEQUENCE
+Example: python script.py AGCU
+```
 
+The script only depends on Python3.
+It imports only the `sys` module.
 
 ## Update history
 
